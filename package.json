@@ -1,0 +1,51 @@
+{
+  "name": "cloudletstore",
+  "description": "OPENi Cloudlet Platform store",
+  "version": "0.1.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPENi-ict/cloudlet-store"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/main.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies" : {
+     "express"       : "3.5.0",
+     "lazy.js"       : "",
+     "async"       : "",
+     "uuid"       : "",
+     "scrypt"       : "",
+     "couchbase"       : "",
+     "jsonminify" : ""
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint"    : "~0.6.4",
+    "grunt-contrib-nodeunit"  : "~0.2.0",
+    "grunt-contrib-watch"     : "~0.5.3",
+    "grunt-contrib-clean"     : "",
+    "grunt-contrib-concat"    : "",
+    "grunt-contrib-uglify"    : "",
+    "grunt-istanbul-coverage" : "",
+    "grunt-qunit-cov"         : "",
+    "grunt-plato"             : "",
+    "grunt-istanbul"          : "",
+    "grunt"                   : "~0.4.1",
+    "grunt-config"            :"",
+    "sinon"                   : ""
+  },
+  "keywords": []
+}
